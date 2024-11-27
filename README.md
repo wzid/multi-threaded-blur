@@ -1,4 +1,4 @@
-# multi-threaded-blur
+# multithreaded-blur
 
 A parallel implementation of Gaussian blur using pthreads to process the image
 in 4 concurrent segments. Supports *24-bit* BMP files.
