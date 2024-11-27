@@ -1,4 +1,4 @@
-# multithreaded-blur
+# multi-threaded-blur
 
 A parallel implementation of Gaussian blur using pthreads to process the image
 in 4 concurrent segments. Supports *24-bit* BMP files.
@@ -31,6 +31,7 @@ The resulting blurred image should be in `output.bmp`
 ## Blur Process
 
 In this implementation I used a typical gaussian blur filter for the image.
+
 $$
 G(x) =\frac{1}{2\pi\sigma^2}e^{-\frac{x^2 + y^2}{2\sigma^2}}
 $$
